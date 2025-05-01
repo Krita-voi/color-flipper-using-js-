@@ -1,0 +1,60 @@
+body {
+    transition: 0.5s;
+}
+
+section#present_color {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin: 195px auto;
+    width: 50%;
+    background-color: whitesmoke;
+    box-shadow: 0 0 30px rgb(0,0,0,0.5);
+    padding: 50px;
+    border-radius: 5px;
+}
+
+section#present_color h1 {
+    font-weight: 900;
+}
+
+/* ✅ Wrapper ensures consistent width for buttons */
+.button_wrapper {
+    width: 100%;
+}
+
+/* ✅ Make all buttons fit the wrapper */
+.button_group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.button_group button {
+    flex: 1;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button_group button:nth-child(2) {
+    color: black; /* yellow button text */
+}
+
+/* ✅ "New color!" button same width as button group */
+section#present_color #new_color {
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 15px;
+    border: none;
+    padding: 20px;
+}
+
+
+
+
+
+
